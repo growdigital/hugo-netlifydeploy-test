@@ -4,3 +4,7 @@
 
 [context.deploy-preview]
   command = "npm run build-preview"
+
+[template.environment]
+  SECRET_TOKEN = "change me for your secret token"
+  CUSTOM_LOGO = "set the url to your custom logo here"
